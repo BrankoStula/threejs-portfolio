@@ -1,15 +1,19 @@
 {
   "name": "threejs-portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A portfolio built with ThreeJs",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx http-server",
+    "dev": "vite",
+    "build": "vite build"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Branko Stula",
   "license": "ISC",
   "dependencies": {
     "three": "^0.173.0"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
   }
 }
